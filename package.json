@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "next": "^9.5.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/react": "^10.4.7",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0"
+  }
+}
