@@ -1,14 +1,26 @@
 {
-  "dependencies": {
-    "next": "^9.5.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+  "name": "bounce-bumper",
+  "description": "listen to my bounces through this thing",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snjnlsn/bounce-bumper"
   },
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "test": "jest"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./audio": "./src/lib/audio.js"
+  },
+  "dependencies": {
+    "next": "^9.5.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.2",
