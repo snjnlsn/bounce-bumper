@@ -17,7 +17,7 @@ export default function Home({ bounces }) {
       </header>
       {bounces.map((bounce) => {
         return (
-          <audio controls src={bounce}>
+          <audio key={bounce} controls src={bounce}>
             Bummer
           </audio>
         )

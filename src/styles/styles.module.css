@@ -1,7 +1,6 @@
 .container {
   display: grid;
   place-items: center;
-  background-color: coral;
   height: 100%;
 }
 

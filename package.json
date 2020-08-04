@@ -18,6 +18,7 @@
     "./audio": "./src/lib/audio.js"
   },
   "dependencies": {
+    "googleapis": "39",
     "next": "^9.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
